@@ -1,6 +1,5 @@
 import React from "react";
-import Count from "./components/Count";
-
+import Count from "./containers/Count";
 function App() {
   return (
     <div>
