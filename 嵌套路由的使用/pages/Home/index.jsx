@@ -8,14 +8,14 @@ function Home(props) {
     <div>
       <h3>我是Home的内容</h3>
       <div>
-        <ul className="nav nav-tabs">
+        <ul class="nav nav-tabs">
           <li>
-            <MyNavLink to="/home/news" className="list-group-item">
+            <MyNavLink to="/home/news" class="list-group-item">
               news
             </MyNavLink>
           </li>
           <li>
-            <MyNavLink to="/home/message" className="list-group-item">
+            <MyNavLink to="/home/message" class="list-group-item">
               message
             </MyNavLink>
           </li>
