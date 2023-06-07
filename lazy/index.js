@@ -9,3 +9,5 @@ root.render(
     <App></App>
   </BrowserRouter>
 );
+
+//setInterval(tick, 1000);
