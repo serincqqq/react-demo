@@ -1,4 +1,6 @@
 import { legacy_createStore as createStore, applyMiddleware } from "redux";
-import countReducer from "./count_reducer";
+import reducers from "./reducers";
 import thunk from "redux-thunk";
-export default createStore(countReducer, applyMiddleware(thunk));
+import { composeWithDevTools } from "redux-devtools-extension";
+
+export default createStore(reducers, composeWithDevTools(applyMiddleware(thunk)));

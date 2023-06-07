@@ -5,22 +5,20 @@ export default class Count extends Component {
   //加法
   increment = () => {
     const { value } = this.selectNumber;
-    this.props.Increment(value);
+    this.props.jia(value);
   };
   //减法
   decrement = () => {
     const { value } = this.selectNumber;
-    this.props.Derement(value);
+    this.props.jian(value);
   };
   //奇数再加
   incrementIfOdd = () => {
     const { value } = this.selectNumber;
-    this.props.Increment(value);
   };
   //异步加
   incrementAsync = () => {
     const { value } = this.selectNumber;
-    this.props.IncrementAsync(value);
   };
 
   render() {
